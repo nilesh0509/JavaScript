@@ -22,4 +22,12 @@ while(num2!=num1){
 console.log("Congrats! YOu Gauss The Number");
 
 
+var firstName = prompt("Enter Your First Name");
+console.log("Your first name is  " , firstName)
+var lastName = prompt("Enter Your Last Name");
+console.log("Your last name is  " , lastName)
+var username = "@" + firstName + lastName + firstName.length;
+console.log("Your userName is ",username);
+
+
 
